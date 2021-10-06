@@ -1,28 +1,57 @@
-<!DOCTYPE html>
-<html>
-<header>
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%;
-}
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-</style>
-</header>
-<body>
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boilerfish</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<div class="center">
-Privacy: <a href="privacy">policy</a><br/>
-Contact: <a href="mailto:support@boilerfish.com">support@boilerfish.com</a><br/>
-</div>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-<img src="https://raw.githubusercontent.com/boilerfish/boilerfish.github.io/master/boilerfish-compressed.jpg" />
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+    <link href="css/cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0 text-start">Boilerfish</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="privacy/index.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+  
+    <main class="px-3">
+      <p class="lead">
+        <img src="logo.svg"/>
+      </p>
+      <h1>Uncover your eyes.</h1>
+      <p class="lead">Documentation isn't just the static output from some API doc generator. It's a living, breathing, interactive experience customized to your product.</p>
+      <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Coming soon</a>
+      </p>
+    </main>
+  
+    <footer class="mt-auto text-white-50">
+      <p class="text-white">© 2021 Boilerfish LLC</p>
+    </footer>
+  </div>
 
-</body>
+  </body>
 </html>
